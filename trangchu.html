@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<base href="{{asset('')}}">
+	<title>Lịch Sử Việt Nam</title>
+
+	<!-- CSS libs -->
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap-4.0.0/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/font-awesome-full-4.7/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="libs/slick-1.8.1/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="libs/slick-1.8.1/slick/slick-theme.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="main">
+		<header>
+			<div id="header-1">
+				<div class="container pt-3 pb-3">
+					<div class="row">
+						<div class="col-md-3 logo">
+							<a href="">
+								<img src="images/logo_xoay.png" alt="">
+								<span>Dân tộc Việt Nam</span>
+							</a>
+						</div>
+						<div class="col-md-9 title-banner">
+							<p>Lịch Sử Việt Nam</p>
+							<span style="cursor:pointer; display: none;" onclick="openNav()">&#9776;</span>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div id="header-2">
+				<div class="container menu-full">
+					<ul class="menu-1">
+						<li><a href="">Trang chủ</a></li>
+						<li><a href="">Giới Thiệu</a></li>
+						<li class="menu-2">
+							<a href="">Hình ảnh lịch sử</a>
+							<ul class="menu-con">
+								<li><a href="">Hình ảnh 1</a></li>
+								<li><a href="">Hình ảnh 2</a></li>
+							</ul>
+						</li>
+						<li><a href="">Sử ca</a></li>
+						<li><a href="">Hỏi đáp</a></li>
+						<li><a href="">Liên Hệ</a></li>
+					</ul>
+					<!-- <input type="text" placeholder="&ensp;Search..." class="ip-tim1">
+						<a class="a-search" href=""><i class="fa fa-search pl"></i></a> -->
+					</div>
+				</div>
+
+
+				<div id="myNav" class="overlay">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<div class="overlay-content">
+						<ul>
+							<li><a href="javascript:void(0)">Trang Chủ</a></li>
+							<li><a href="javascript:void(0)">Giới Thiệu</a></li>
+							<li class="add-1">
+								<a href="javascript:void(0)">Hình Ảnh Lịch Sử </a>
+								<i class="fa fa-plus add"></i>
+								<ul class="drop-down-1">
+									<li><a href="javascript:void(0)">Hình ảnh 1</a></li>
+									<li><a href="javascript:void(0)">Hình ảnh 2</a></li>
+								</ul>
+							</li>
+							<li><a href="javascript:void(0)">Sử Ca</a></li>
+							<li><a href="javascript:void(0)">Hỏi Đáp</a></li>
+							<li><a href="javascript:void(0)">Liên Hệ</a></li>
+						</ul>
+					</div>
+				</div>
+				
+
+
+			</header>
+			<main>
+				<img class="ab" src="images/slider-1.jpg" alt="">
+				<h1 class="mt-5 mb-5">Lịch Sử - Giai Đoạn Của Dân Tộc Việt Nam</h1>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9">
+							<div class="row">
+								<div class="col-md-8">
+									<div class="img-hot">
+										<img class="pic-1" src="images/hot-1.jpg" alt="">
+										<img class="pic-2" src="images/xuong-lang.jpg" alt="">
+										<a href="">lăng thiệu trị (Xương Lăng)</a>
+									</div>
+								</div>
+								<div class="col-md-4 ">
+									<div class="row">
+										<div class="col-md-4 img-tt">
+											<a href=""><img src="images/hot-2.jpg" alt=""></a>
+										</div>
+										<div class="col-md-8 text-img">
+											<a href="">Bộ mặt của một nhà nước phong kiến ngoài kinh tế, chính trị, giáo dục còn thể hiện trong văn hóa mặc. Mỗi một triều đại đi qua đều để lại những dấu ấn</a>
+										</div>
+									</div>
+									<div class="row mt-3">
+										<div class="col-md-4 img-tt">
+											<a href=""><img src="images/hot-3.jpg" alt=""></a>
+										</div>
+										<div class="col-md-8 text-img">
+											<a href="">Cuộc đời thứ phi Mộng Điệp qua ảnh</a>
+										</div>
+									</div>
+									<div class="row mt-3">
+										<div class="col-md-4 img-tt">
+											<a href=""><img src="images/hot-4.jpg" alt=""></a>
+										</div>
+										<div class="col-md-8 text-img">
+											<a href="">Hình ảnh Hà Nội xưa (1884-1885) qua ống kính bác sĩ Hocquard</a>
+										</div>
+									</div>
+									<div class="row mt-3">
+										<div class="col-md-4 img-tt">
+											<a href=""><img src="images/hot-5.jpg" alt=""></a>
+										</div>
+										<div class="col-md-8 text-img">
+											<a href="">Hình ảnh hiếm về nghề phát thư xưa</a>
+										</div>
+									</div>
+									<div class="row mt-3">
+										<div class="col-md-4 img-tt">
+											<a href=""><img src="images/hot-6.jpg" alt=""></a>
+										</div>
+										<div class="col-md-8 text-img">
+											<a href="">Con số 13 gắn liền với vua Bảo Đại</a>
+										</div>
+									</div>
+
+								</div>
+								
+							</div>
+							<h2 class="title-visit mt-5 mb-3">Những dấu mốc lịch sử</h2> 
+							<div class="row">
+								<div class="col-md-6 time-title">
+									<h2>
+										<span>Thời kỳ cổ đại (2879–111 TCN)</span>
+										<img src="images/title.gif" alt="">
+									</h2>
+									<div class="content-time">
+										<img src="images/ky-hong-bang.jpg" alt="">
+										<a class="mb-3" href="">HỒNG BÀNG & VĂN LANG</a> <br>
+										<span><i class="fa fa-calendar-check-o"></i> 31/10/2019</span>
+										<span class="ml-5 "><i class="fa fa-pencil-square-o"></i> Ban thông tin truyền thông</span>
+										<p class="mt-3">Thời kỳ Hồng Bàng theo truyền thuyết và dã sử cho rằng bắt đầu từ năm 2879 TCN, là niên đại của Kinh Dương Vương, với quốc hiệu Xích Quỷ. Lãnh thổ của quốc gia dưới thời Kinh Dương vương rộng lớn, phía bắc tới sông Dương Tử (cả vùng hồ Động Đình)</p>
+										<div class="space mb-4"></div>
+										<div class="row mb-4">
+											<div class="col-md-4 img-vanlang pr-0">
+												<a href="">
+													<img src="images/van-lang.jpg" alt="">
+												</a>
+											</div>
+											<div class="col-md-8">
+												<a href="">Nước Văn Lang</a>
+												<p class="m-0">Nước Văn Lang là nhà nước đầu tiên của Việt Nam. Tuy còn ở hình thức sơ khai và sự phân hoá xã hội chưa sâu sắc nhưng đã đánh dấu một bước ngoặt quan trọng, mở đầu thời đại dựng nước và giữ nước của dân tộc.</p>
+												<span><i class="fa fa-calendar-check-o"></i> 31/10/2019</span>
+											</div>
+										</div>
+										<div class="space mb-4"></div>
+										<div class="row mb-4">
+											<div class="col-md-4 img-vanlang pr-0">
+												<a href="">
+													<img src="images/nha-thuc.jpeg" alt="">
+												</a>
+											</div>
+											<div class="col-md-8">
+												<a href="">Nhà Thục</a>
+												<p class="m-0">An Dương Vương (chữ Hán: 安陽王), tên thật là Thục Phán (蜀泮), là một vị vua đã lập nên đất nước Âu Lạc và cũng là vị vua duy nhất cai trị nhà nước này. Âu Lạc là nhà nước thứ hai trong lịch sử Việt Nam sau nhà nước Văn Lang đầu tiên của các vua Hùng</p>
+												<span><i class="fa fa-calendar-check-o"></i> 31/10/2019</span>
+											</div>
+										</div>
+									</div>
+									<a class="tht" href="">Tìm Hiểu Thêm</a>
+								</div>
+								<div class="col-md-6 time-title">
+									<h2>
+										<span>Thời kỳ Bắc thuộc (111 TCN–938 SCN)</span>
+										<img src="images/title.gif" alt="">
+									</h2>
+									<div class="content-time">
+										<img src="images/haibatrung.jpg" alt="">
+										<a class="mb-3" href="">Hai Bà Trưng (40–43)</a> <br>
+										<span><i class="fa fa-calendar-check-o"></i> 31/10/2019</span>
+										<span class="ml-5 "><i class="fa fa-pencil-square-o"></i> Ban thông tin truyền thông</span>
+										<p class="mt-3">Một cuộc khởi nghĩa do Hai Bà Trưng lãnh đạo đã nổ ra ở quận Giao Chỉ, tiếp theo sau đó là các quận Cửu Chân, Nhật Nam, Hợp Phố và các địa phương khác của vùng Lĩnh Nam (mà theo cổ sử Việt ghi nhận là có tất cả 65 thành trì) hưởng ứng trong năm 40.</p>
+										<div class="space mb-4"></div>
+										<div class="row mb-4">
+											<div class="col-md-4 img-vanlang pr-0">
+												<a href="">
+													<img src="images/lan-2.jpg" alt="">
+												</a>
+											</div>
+											<div class="col-md-8">
+												<a href="">Bắc thuộc lần 2 (43–544)
+													
+												</a>
+												<p class="m-0">Tiếp theo sau nhà Hán, các triều đại phong kiến Trung Quốc kế tiếp khác như Đông Ngô, nhà Tấn, Lưu Tống, Nam Tề, nhà Lương lần lượt thay nhau đô hộ Việt Nam, người Việt cũng đã nhiều lần nổi dậy chống lại sự cai trị của ngoại bang, tuy nhiên tất cả đều không thành công cho mục tiêu giành độc lập.</p>
+												<span><i class="fa fa-calendar-check-o"></i> 31/10/2019</span>
+											</div>
+
+										</div>
+										<div class="space mb-4"></div>
+										<div class="row mb-4">
+											<div class="col-md-4 img-vanlang pr-0">
+												<a href="">
+													<img src="images/lan-3.jpg" alt="">
+												</a>
+											</div>
+											<div class="col-md-8">
+												<a href="">Bắc thuộc lần 3 (602–923 hoặc 930)
+													
+												</a>
+												<p class="m-0">Kế tiếp nhà Tùy, nhà Đường đô hộ Việt Nam gần 300 năm. Trung Quốc đến thời Đường đạt tới cực thịnh, bành trướng ra 4 phía, phía bắc lập ra An Bắc đô hộ phủ, phía đông đánh nước Cao Ly lập ra An Đông đô hộ phủ, phía tây lập ra An Tây đô hộ phủ và phía nam lập ra An Nam đô hộ phủ, tức là lãnh thổ nước Vạn Xuân cũ</p>
+												<span><i class="fa fa-calendar-check-o"></i> 31/10/2019</span>
+											</div>
+
+										</div>
+									</div>
+									<a class="tht" href="">Tìm Hiểu Thêm</a>
+								</div>
+								<div class="col-md-6 time-title mt-5">
+									<h2>
+										<span>Thời kỳ quân chủ (939–1945)</span>
+										<img src="images/title.gif" alt="">
+									</h2>
+									<div class="content-time">
+										<img src="images/doc-lap.jpg" alt="">
+										<a class="mb-3" href="">Thời kỳ độc lập (939–1407)</a> <br>
+										<span><i class="fa fa-calendar-check-o"></i> 31/10/2019</span>
+										<span class="ml-5 "><i class="fa fa-pencil-square-o"></i> Ban thông tin truyền thông</span>
+										<p class="mt-3">Năm 939, Ngô Quyền xưng vương sau trận chiến lịch sử trên sông Bạch Đằng trước quân Nam Hán.</p>
+										<div class="space mb-4"></div>
+										<div class="row mb-4">
+											<div class="col-md-4 img-vanlang pr-0">
+												<a href="">
+													<img src="images/phan-tranh.JPEG" alt="">
+												</a>
+											</div>
+											<div class="col-md-8">
+												<a href="">Trịnh – Nguyễn phân tranh
+													
+												</a>
+												<p class="m-0">Sự mâu thuẫn giữa hai người cận thần của nhà Lê trung hưng là Trịnh Kiểm và Nguyễn Hoàng (trấn thủ xứ Thuận Hóa và Quảng Nam) đã bắt đầu cho sự phân chia đất nước ra thành hai lãnh thổ. </p>
+												<span><i class="fa fa-calendar-check-o"></i> 31/10/2019</span>
+											</div>
+
+										</div>
+										<div class="space mb-4"></div>
+										<div class="row mb-4">
+											<div class="col-md-4 img-vanlang pr-0">
+												<a href="">
+													<img src="images/lan-4.jpg" alt="">
+												</a>
+											</div>
+											<div class="col-md-8">
+												<a href="">Bắc thuộc lần 4 (1407–1427)
+													
+												</a>
+												<p class="m-0">Năm 1407, quân Minh sang xâm lược Đại Ngu với cớ đánh đuổi nhà Hồ khôi phục nhà Trần (Phù Trần diệt Hồ). Quân Minh nhanh chóng đánh bại quân Đại Ngu, giai đoạn này gọi là Bắc thuộc lần 4.</p>
+												<span><i class="fa fa-calendar-check-o"></i> 31/10/2019</span>
+											</div>
+
+										</div>
+									</div>
+									<a class="tht" href="">Tìm Hiểu Thêm</a>
+								</div>
+								<div class="col-md-6 time-title mt-5">
+									<h2>
+										<span>Thời kỳ hiện đại (1858–nay)</span>
+										<img src="images/title.gif" alt="">
+									</h2>
+									<div class="content-time">
+										<img src="images/phap-thuoc.png" alt="">
+										<a class="mb-3" href="">Thời kỳ Pháp thuộc (1858–1945)</a> <br>
+										<span><i class="fa fa-calendar-check-o"></i> 31/10/2019</span>
+										<span class="ml-5 "><i class="fa fa-pencil-square-o"></i> Ban thông tin truyền thông</span>
+										<p class="mt-3">Ngày 31 tháng 8 năm 1858, Hải quân Pháp đổ bộ tấn công vào cảng Đà Nẵng và sau đó rút vào xâm chiếm Sài Gòn. Tháng 6 năm 1862, Vua Tự Đức ký hiệp ước nhượng ba tỉnh miền Đông cho Pháp. Năm 1867, Pháp chiếm nốt ba tỉnh miền Tây kế tiếp để tạo thành một lãnh thổ thuộc địa Cochinchine (Nam Kỳ).</p>
+										<div class="space mb-4"></div>
+										<div class="row mb-4">
+											<div class="col-md-4 img-vanlang pr-0">
+												<a href="">
+													<img src="images/nhat-thuoc.jpg" alt="">
+												</a>
+											</div>
+											<div class="col-md-8">
+												<a href="">Thời kỳ Nhật thuộc (1940–1945)
+													
+												</a>
+												<p class="m-0">Nhật Bản tấn công Đông Dương vào năm 1940 và nhanh chóng thỏa thuận được với chính quyền Vichy ở Pháp để cho Nhật toàn quyền cai trị Đông Dương. Chính quyền thực dân Pháp chỉ tồn tại đến tháng 3 năm 1945 khi Nhật tấn công toàn bộ Đông Dương.</p>
+												<span><i class="fa fa-calendar-check-o"></i> 31/10/2019</span>
+											</div>
+
+										</div>
+										<div class="space mb-4"></div>
+										<div class="row mb-4">
+											<div class="col-md-4 img-vanlang pr-0">
+												<a href="">
+													<img src="images/den-nay.jpg" alt="">
+												</a>
+											</div>
+											<div class="col-md-8">
+												<a href="">Thời kỳ cộng hòa (1945–nay)
+													
+												</a>
+												<p class="m-0">Tuyên bố Potsdam của Anh, Mỹ và Trung Hoa Dân quốc gửi Nhật ngày 26 tháng 7 không nói rõ phần lãnh thổ nào của Đông Dương sẽ do ai giải giới vũ khí mà chỉ nói các vùng lãnh thổ do Nhật Bản chiếm được bằng vũ lực sẽ được các nước đồng minh vào giải giới.</p>
+												<span><i class="fa fa-calendar-check-o"></i> 31/10/2019</span>
+											</div>
+
+										</div>
+									</div>
+									<a class="tht" href="">Tìm Hiểu Thêm</a>
+								</div>
+							</div>
+							
+						</div>
+						<div class="col-md-3">
+							<section class="toc-huy">
+								<a href=""><img src="images/tochuy.gif" alt="">lịch sử dân tộc Việt Nam</a>
+								<span class="calendar"><i class="fa fa-calendar-check-o"></i> 31/10/2019</span>
+								<span class=" calendar ml-2"><i class="fa fa-pencil-square-o"></i> Ban thông tin truyền thông</span>
+							</section>
+							<section class="toc-huy mt-5">
+								<a href=""><img src="images/tu-hao.jpg" alt="">Tự hào lịch sử dân tộc Việt Nam</a>
+								<span class="calendar"><i class="fa fa-calendar-check-o"></i> 31/10/2019</span>
+								<span class=" calendar ml-2"><i class="fa fa-pencil-square-o"></i> Ban thông tin truyền thông</span>
+							</section>
+							<div class="col-md-12 time-title p-0 mt-3">
+								<h2>
+									<span>Tin Nổi Bật</span>
+									<img src="images/title.gif" alt="">
+								</h2>
+								<div class="img-news mt-4">
+									<a class="news-1" href=""><img src="images/news.jpg" alt=""></a>
+									<a class="news-2" href="">Ai là hoàng hậu chính thất của vua Gia Long?</a>
+								</div>
+								<div class="space mt-3"></div>
+								<div class="img-news mt-4">
+									<a class="news-1" href=""><img src="images/news.jpg" alt=""></a>
+									<a class="news-2" href="">Ai là hoàng hậu chính thất của vua Gia Long?</a>
+								</div>
+								<div class="space mt-3"></div>
+								<div class="img-news mt-4">
+									<a class="news-1" href=""><img src="images/news.jpg" alt=""></a>
+									<a class="news-2" href="">Ai là hoàng hậu chính thất của vua Gia Long?</a>
+								</div>
+								<div class="space mt-3"></div>
+								<div class="img-news mt-4">
+									<a class="news-1" href=""><img src="images/news.jpg" alt=""></a>
+									<a class="news-2" href="">Ai là hoàng hậu chính thất của vua Gia Long?</a>
+								</div>
+								<div class="space mt-3"></div>
+								<div class="img-news mt-4">
+									<a class="news-1" href=""><img src="images/news.jpg" alt=""></a>
+									<a class="news-2" href="">Ai là hoàng hậu chính thất của vua Gia Long?</a>
+								</div>
+							</div>
+							<div class="col-md-12 time-title p-0 mt-3">
+								<h2>
+									<span>Bản Tin</span>
+									<img src="images/title.gif" alt="">
+								</h2>
+								<div class="img-bantin mt-3">
+									<img src="images/ban-tin.jpg" alt="">
+									<img src="images/bct.jpg" alt="">
+								</div>
+							</div>
+							<div class="col-md-12 time-title p-0 mt-3">
+								<h2>
+									<span>Liên Kết Nhanh</span>
+									<img src="images/title.gif" alt="">
+								</h2>
+								<ul class="lk-nhanh">
+									<li><a href=""><i class="fa fa-angle-double-right"></i> Trang Chủ</a></li>
+									<li><a href=""><i class="fa fa-angle-double-right"></i> Giới Thiệu</a></li>
+									<li><a href=""><i class="fa fa-angle-double-right"></i> Hình Ảnh Lịch Sử</a></li>
+									<li><a href=""><i class="fa fa-angle-double-right"></i> Sử Ca</a></li>
+									<li><a href=""><i class="fa fa-angle-double-right"></i> Hỏi Đáp</a></li>
+									<li><a href=""><i class="fa fa-angle-double-right"></i> Liên Hệ</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+				</main>
+				<footer class="mt-5">
+					<section class="container ">
+						<div class="footer-1 pt-3">
+							<img src="images/Untitled-1.png" alt="">
+							<h3 class="mt-3">Ban điện tử truyền thông lịch sử việt nam</h3>
+							<p>Biên Tập: Ban liên lạc truyền thông</p>
+							<p>Địa Chỉ: 2006 Tòa nhà M3-M4 91 Nguyễn Chí Thanh</p>
+						</div>
+					</section>
+				</footer>
+			</div>
+		</body>
+		<script type="text/javascript" src="libs/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="libs/bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="libs/slick-1.8.1/slick/slick.min.js"></script>
+		<script src="js/style.js"></script>
+		<!-- <script type="text/javascript" src="js/all-js.js"></script> -->
+		</html>
